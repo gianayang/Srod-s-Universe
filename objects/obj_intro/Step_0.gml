@@ -4,9 +4,9 @@ if (keyboard_check_pressed(vk_enter)){
 
 if (count <= 1){
 	image_index = 0
-}else if (count <= 4 and count >= 2){ 
+}else if (count <= 6){ 
 	image_index = 1
-}else if (count == 5){
+}else if (count == 7){
 	image_index = 2
 }else {
 	room_goto(Room1)

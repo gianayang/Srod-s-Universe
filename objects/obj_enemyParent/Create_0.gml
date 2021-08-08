@@ -6,6 +6,7 @@ sprite_run = spr_enemy1
 sprite_fall = spr_enemy1
 sprite_wall_walk = spr_enemy1
 sprite_jump = spr_enemy1
+sprite_hit = spr_enemy1
 
 
 time = 3 * room_speed
@@ -27,5 +28,5 @@ bullet = obj_enemy_bullet
 hp = 100
 
 
-jump_max= 10
+jump_max= 20
 num_jump = 1

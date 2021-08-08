@@ -1,0 +1,1 @@
+image_alpha -= FADE_OUT_SPEED

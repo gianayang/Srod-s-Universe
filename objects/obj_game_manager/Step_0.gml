@@ -3,7 +3,7 @@ if (global.hp <= 0) {
 	if (sleep){
 		time--
 	}else{
-		time = 0.2 * room_speed
+		time = 0.15 * room_speed
 		sleep = true
 		global.death = false
 		global.hp = 100

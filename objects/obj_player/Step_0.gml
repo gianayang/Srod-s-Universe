@@ -1,6 +1,8 @@
-if (global.hp > 0) {
+if (global.hp > 0  and hit == false) {
 	if not keyboard_check_pressed(vk_space) {
-		if (keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down)) {
+		if (keyboard_check_pressed(vk_left) or 
+		keyboard_check_pressed(vk_right) or 
+		keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down)) {
 			global.start_move = true
 			global.show_ult = false
 		}else {
@@ -57,7 +59,29 @@ if (global.hp > 0) {
 	}
 */
 	buttons_false();
-
+	if place_meeting(x + 32, y + 32,obj_platform_1){
+		x -= 2
+	}
+	if  place_meeting(x - 32, y + 32,obj_platform_1){
+		x += 2
+	}
+	if place_meeting(x + 32, y + 32,obj_platform2_lvl2){
+		x -= 2
+	}
+	if  place_meeting(x - 32, y + 32,obj_platform2_lvl2){
+		x += 2
+	}
+	if place_meeting(x + 25, y + 32,obj_stick){
+		x -= 0.5
+	}
+	if  place_meeting(x - 25, y + 32,obj_stick){
+		x += 0.5
+	}
+	if  place_meeting(x + 16, y - 36,obj_black_hole){
+		sprite_index = pointer_null
+	}
+	
+	
 	if (ult_pt >= 100) {
 		ult = true
 		if (sleep){
@@ -73,9 +97,22 @@ if (global.hp > 0) {
 			ult_pt -= 100
 		}
 	}
-}else {
+}else if global.hp <= 0{
 	vspd = 2
 	y -= vspd
 	sprite_index = spr_player_death
+}else if hit == true {
+	sprite_index = spr_player_throw_up
+	if (sleep){
+		time--
+	}else{
+		time = 0.5 * room_speed
+		sleep = true
+		hit = false
+	}
+
+	if (time == 0){
+		sleep = false
+	}
 }
 

@@ -2,31 +2,26 @@ textMap = ds_map_create();
 
 value = "";
 
-ds_map_add(textMap,""," Yoooooo, what the hell is going on? Why are they even chasing me like this?");//0
-ds_map_add(textMap,"E"," Whatever least I made it here. ");
-ds_map_add(textMap,"EE", "Wherever the hell HERE is I guess.");//1
-ds_map_add(textMap,"EEE","Since when did I get these superpowers? ");
-ds_map_add(textMap,"EEEE","Is that why they're after me? But since when could I do this?");//3
-
-ds_map_add(textMap,"EEEEE","SROD: Woah what? Who the FUCK are ya'll???? How long were you here??");//4
-ds_map_add(textMap,"EEEEEE","AGENT: longer than you know experiment number 718.");
-ds_map_add(textMap,"EEEEEE","SROD: experiment what? The fuck did you just call me? I'm a normal guy, okay? not no experiment.");
-ds_map_add(textMap,"EEEEEEE","AGENT: They sure did a good job with this one, he's totally clueless. Get 'em, boys!");//7
-ds_map_add(textMap,"EEEEEEEE"," fuuuuuck");
-
-ds_map_add(textMap,"EEEEEEEEE","SROD: Bruh, you gotta be shittin me.");
-
-
-ds_map_add(textMap,"EEEEEEEEEE"," Fine, I give up. ");
-
-ds_map_add(textMap,"EEEEEEEEEEE","SROD: And by up, I really mean UP!!! ");
-ds_map_add(textMap,"EEEEEEEEEEEE","SROD: Fuck, I'm so screwed.");
-/*
-ds_map_add(textMap,"EEEEEEEEEEEEEE","Your job is to find the culprit.");
-ds_map_add(textMap,"EEEEEEEEEEEEEEE","...");
-ds_map_add(textMap,"EEEEEEEEEEEEEEEE","... This will definitely not be the easiest task, Detective.");
-ds_map_add(textMap,"EEEEEEEEEEEEEEEEE","However, as you know, you are not in any position to refuse. This is an order.");
-ds_map_add(textMap,"EEEEEEEEEEEEEEEEEE","You better find that culprit, or else say goodbye to your job!");
-ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEE","As you know, Detective, as the famous Gosho Aoyama said, detectives are only human; we're not Gods that know everything. When detectives tell their theory, in reality, most are rather anxious. ... ");
-ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEEE","... [you blank out as the chief blabbers on] ... ");
-*/
+ds_map_add(textMap,""," What the hell is going on?? Where am I and who are those people??? Why are they even chasing me like this???");//0
+ds_map_add(textMap,"E"," SROD: *sigh* I need to breathe. It must be because of this new ability. But since when was I able to do this? ");
+ds_map_add(textMap,"EE", "AGENT: Found 'it'.");//2
+ds_map_add(textMap,"EEE","SROD: Woah what? Who the FUCK are ya'll???? How long were you here??");
+ds_map_add(textMap,"EEEE","AGENT: longer than you know experiment number 718.");//4
+ds_map_add(textMap,"EEEEE","SROD: Experiment number what? Since when? ");//5
+ds_map_add(textMap,"EEEEEE","AGENT: Enough talking, detain 'it'. ");
+ds_map_add(textMap,"EEEEEEE","SROD: Fuuuuuuuuck, Nori's gonna kill me for being late if these guys don't.");//6
+ds_map_add(textMap,"EEEEEEEE","SROD: Bruh, you gotta be kidding me. I could just blast you all dead right now. ");//7
+ds_map_add(textMap,"EEEEEEEEE","AGENT: Do that and you'd be blasting the bombs strapped to our bodies. Not even you can survive an explosion like that Experiment 718.");
+ds_map_add(textMap,"EEEEEEEEEE","SROD: How do I know you're not lying?");//10
+ds_map_add(textMap,"EEEEEEEEEEE","AGENT: Come here and find out.  ");//
+ds_map_add(textMap,"EEEEEEEEEEEE","SROD: No thanks! :) ");
+ds_map_add(textMap,"EEEEEEEEEEEEE","AGENT: Retrieve it immediately! ");//13
+ds_map_add(textMap,"EEEEEEEEEEEEEE","SROD: Woah.. What is this place? ");//14
+ds_map_add(textMap,"EEEEEEEEEEEEEEE","AGENT 1: OPEN THE DOOR THIS INSTANT! ");
+ds_map_add(textMap,"EEEEEEEEEEEEEEEE","AGENT 2: I'll go and get the sergeant.");
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEE","SROD: AGHHH!!! I NEED TO GET RID OF THEM!!");//17
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEEE","SROD: What?? Is that a countdown?? ");//18
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEE","AGENT 1: Operation ______ has moved on to the next phase..");
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEEE","SROD: WHAAAAAT? This was all part of their plan?? How didn't I notice?!?! ");
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEEEE"," ");
+ds_map_add(textMap,"EEEEEEEEEEEEEEEEEEEEEE","SROD: Nooooooo!!! I gotta be dreaming right now.. Please tell me I'm dreaming right nooow!! ");

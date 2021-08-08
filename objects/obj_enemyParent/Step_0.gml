@@ -49,11 +49,11 @@ if (global.start_move == true) {
 			action_1_pressed = true
 			action_1_hold = true
 		}	
-		if position_meeting(x - 60, y - 60,obj_building2) or position_meeting(x + 60, y - 60,obj_building2) {
+		if position_meeting(x - 60, y - 60,obj_platform2_lvl2) or position_meeting(x + 60, y - 60,obj_platform2_lvl2) {
 			action_1_pressed = true
 			action_1_hold = true
 		}
-		if position_meeting(x - 32, y ,obj_stick) or position_meeting(x + 32, y,obj_stick) {
+		if position_meeting(x + 50, y ,obj_rock){
 			action_1_pressed = true
 			action_1_hold = true
 		}

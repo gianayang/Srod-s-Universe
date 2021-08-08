@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_interlude_bcg",
-    "path": "sprites/spr_interlude_bcg/spr_interlude_bcg.yy",
+    "name": "spr_interlude_bcg_1",
+    "path": "sprites/spr_interlude_bcg_1/spr_interlude_bcg_1.yy",
   },
   "solid": false,
   "visible": true,

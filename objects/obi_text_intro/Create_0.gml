@@ -3,15 +3,15 @@ textMap = ds_map_create();
 value = "";
 
 ds_map_add(textMap,""," (press enter to continue) ");
-ds_map_add(textMap,"E","I can't wait to go home and watch that new episode of One Piece:3");
-ds_map_add(textMap,"EE","Agents: Are you SROD?");
-ds_map_add(textMap,"EEE","SROD: Depending who's asking");
-ds_map_add(textMap,"EEEE","Agents: Our whereabouts are to remain unknown. As for you, you'll have to come with us");
-ds_map_add(textMap,"EEEEE","SROD: I GOTTA GET OUT OF HERE!");
+ds_map_add(textMap,"E","SROD: Finally outta work. Damn, I think I'm going to be late for the date with Nori -_-");
+ds_map_add(textMap,"EE","SROD: Hmm.. I'll just have to take the alley shortcut today.");
+ds_map_add(textMap,"EEE","AGENT: Grab 'it'. ");
+ds_map_add(textMap,"EEEE","SROD: Grab what bruh?");
+ds_map_add(textMap,"EEEEE","AGENT: ...");
+ds_map_add(textMap,"EEEEE","SROD: STOP!! I AM SERIOUS!! JUST LEAVE ME ALONE!!");
+ds_map_add(textMap,"EEEEEE","AGENT: He's activated it. We're going to need back up! Call in the troops!!");
+ds_map_add(textMap,"EEEEEEE","SROD: Yoooo, I gotta get outta here!!");
 /*
-ds_map_add(textMap,"EEEEE","Due to the recent increase in crime rates, the four districts in our county have enforced stricter policies concerning employee attendance and quality of work.");
-ds_map_add(textMap,"EEEEEE","In our meeting today, I barely managed to stop the regional director from laying off any absent detectives. When they return again in two days, they will be expecting to see a log employee work.");
-ds_map_add(textMap,"EEEEEEE","If they see your empty file with little to no attendance, then what do you suppose might happen?");
 ds_map_add(textMap,"EEEEEEEE","...");
 ds_map_add(textMap,"EEEEEEEEE","I know-- it is harsh. But unfortunately, that is your reality.");
 ds_map_add(textMap,"EEEEEEEEEE","Here. Take this.");

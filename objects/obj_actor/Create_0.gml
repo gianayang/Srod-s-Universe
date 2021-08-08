@@ -6,7 +6,7 @@ R_pressed = false
 R_released = false
 R_hold = false
 
-#region 8-direction bullet
+#region
 bullet = obj_bullet
 just_shoot = false
 shoot_pressed_timer = 8
@@ -35,14 +35,17 @@ mtLocked = 0
 
 hspd_max = 5
 accel = 2.5
-jump_max= 7
+
+//jumping variables
+jump_accel = 0.3
+jump_max = 6.0
 grav_amt= 0.5
 jump_hold = .25 * room_speed
 num_jump = 1
-jump_pressed_timer = 60
+jump_pressed_timer = 15
 coyote_time = 30
 
-
+hit = false
 
 hspd = 0
 vspd = 0
@@ -61,6 +64,7 @@ sprite_idle = pointer_null
 sprite_ult = pointer_null
 sprite_wall_walk = pointer_null
 sprite_fall = pointer_null
+sprite_hit = pointer_null
 
 
 death = false
